@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Your Cafe | Late Night Cafe</title>
+  <meta name="description" content="Your Cafe — a late night cafe for food, coffee and good vibes.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#" class="logo">
+      <span>☾</span> YOUR CAFE
+    </a>
+
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#menu" class="nav-btn">View Menu</a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </header>
+
+
+  <!-- HERO -->
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <div class="open-badge">
+          <span class="dot"></span>
+          OPEN LATE TONIGHT
+        </div>
+
+        <h1>
+          Good Food.<br>
+          <em>Great Nights.</em>
+        </h1>
+
+        <p>
+          Your late-night escape for delicious food,
+          fresh coffee and unforgettable conversations.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn primary">Explore Menu <span>→</span></a>
+          <a href="#contact" class="btn secondary">Find Us</a>
+        </div>
+
+        <div class="hero-info">
+          <div>
+            <strong>☾</strong>
+            <span>Open Late</span>
+          </div>
+
+          <div>
+            <strong>★</strong>
+            <span>Good Vibes</span>
+          </div>
+
+          <div>
+            <strong>♨</strong>
+            <span>Fresh Food</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="scroll-down">
+        SCROLL TO EXPLORE
+        <span>↓</span>
+      </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+    <section class="intro" id="about">
+
+      <div class="intro-image reveal">
+        <div class="image-card">
+          <div class="image-placeholder">
+            <span>☕</span>
+            <p>Late Night<br>Moments</p>
+          </div>
+        </div>
+
+        <div class="experience">
+          <strong>∞</strong>
+          <span>Late night<br>memories</span>
+        </div>
+      </div>
+
+      <div class="intro-content reveal">
+
+        <p class="eyebrow">THE NIGHT STARTS HERE</p>
+
+        <h2>
+          Where every<br>
+          <em>night feels different.</em>
+        </h2>
+
+        <p>
+          Sometimes you just need a place to sit back, grab
+          something delicious and stay a little longer.
+        </p>
+
+        <p>
+          From quick midnight bites to long conversations
+          over coffee, we're here when the rest of the city
+          starts winding down.
+        </p>
+
+        <a href="#contact" class="text-link">
+          Discover our story →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT'S COOKING</p>
+        <h2>Made for <em>late nights.</em></h2>
+        <p>
+          Something for every craving, every mood and every hour.
+        </p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="active" data-category="all">All</button>
+        <button data-category="food">Food</button>
+        <button data-category="drinks">Drinks</button>
+        <button data-category="dessert">Desserts</button>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card" data-category="food">
+          <div class="food-image food1">🍔</div>
+          <div class="menu-info">
+            <div>
+              <h3>Signature Burger</h3>
+              <p>Juicy patty, fresh veggies & house sauce</p>
+            </div>
+            <strong>₹249</strong>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="food">
+          <div class="food-image food2">🥟</div>
+          <div class="menu-info">
+            <div>
+              <h3>Classic Momos</h3>
+              <p>Steamed dumplings with spicy house dip</p>
+            </div>
+            <strong>₹149</strong>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="food">
+          <div class="food-image food3">🍝</div>
+          <div class="menu-info">
+            <div>
+              <h3>Midnight Pasta</h3>
+              <p>Creamy pasta tossed with herbs & cheese</p>
+            </div>
+            <strong>₹229</strong>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="food">
+          <div class="food-image food4">🍕</div>
+          <div class="menu-info">
+            <div>
+              <h3>Cheesy Pizza</h3>
+              <p>Loaded with cheese and fresh toppings</p>
+            </div>
+            <strong>₹299</strong>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="drinks">
+          <div class="food-image drink1">☕</div>
+          <div class="menu-info">
+            <div>
+              <h3>Cold Coffee</h3>
+              <p>Rich, creamy and perfectly chilled</p>
+            </div>
+            <strong>₹139</strong>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="drinks">
+          <div class="food-image drink2">🥤</div>
+          <div class="menu-info">
+            <div>
+              <h3>Chocolate Shake</h3>
+              <p>Thick chocolate shake with whipped cream</p>
+            </div>
+            <strong>₹179</strong>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="dessert">
+          <div class="food-image dessert1">🍰</div>
+          <div class="menu-info">
+            <div>
+              <h3>Chocolate Cake</h3>
+              <p>Soft chocolate cake with rich ganache</p>
+            </div>
+            <strong>₹159</strong>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="dessert">
+          <div class="food-image dessert2">🍨</div>
+          <div class="menu-info">
+            <div>
+              <h3>Ice Cream Bowl</h3>
+              <p>Cold, creamy and perfect after midnight</p>
+            </div>
+            <strong>₹129</strong>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="menu-bottom">
+        <a href="#contact" class="btn primary">View Full Menu →</a>
+      </div>
+
+    </section>
+
+
+    <!-- SPECIAL -->
+    <section class="special">
+
+      <div class="special-content reveal">
+
+        <p class="eyebrow">AFTER DARK</p>
+
+        <h2>
+          The best conversations<br>
+          happen <em>after midnight.</em>
+        </h2>
+
+        <p>
+          Bring your friends. Bring your stories.
+          We'll take care of the food.
+        </p>
+
+        <a href="#contact" class="btn primary">
+          Plan Your Visit →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="gallery-section" id="gallery">
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE VIBE</p>
+        <h2>See you <em>tonight.</em></h2>
+      </div>
+
+      <div class="gallery">
+
+        <div class="gallery-item large">
+          <div>🌙</div>
+          <span>Late Night Vibes</span>
+        </div>
+
+        <div class="gallery-item">
+          <div>☕</div>
+          <span>Fresh Coffee</span>
+        </div>
+
+        <div class="gallery-item">
+          <div>🍔</div>
+          <span>Good Food</span>
+        </div>
+
+        <div class="gallery-item">
+          <div>✨</div>
+          <span>Good Times</span>
+        </div>
+
+        <div class="gallery-item wide">
+          <div>🥂</div>
+          <span>Meet. Eat. Repeat.</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+      <div class="contact-content reveal">
+
+        <p class="eyebrow">COME SAY HELLO</p>
+
+        <h2>
+          Your table is<br>
+          <em>waiting.</em>
+        </h2>
+
+        <p>
+          Whether it's dinner, coffee or a midnight craving,
+          come hang out with us.
+        </p>
+
+        <div class="contact-buttons">
+          <a href="tel:+919999999999" class="btn primary">
+            Call Us
+          </a>
+
+          <a
+            href="https://wa.me/919999999999"
+            target="_blank"
+            class="btn secondary">
+            WhatsApp
+          </a>
+        </div>
+
+      </div>
+
+      <div class="contact-details">
+
+        <div class="detail">
+          <span>📍</span>
+          <div>
+            <small>FIND US</small>
+            <p>Your Cafe, Your Address<br>New Delhi, India</p>
+          </div>
+        </div>
+
+        <div class="detail">
+          <span>🕐</span>
+          <div>
+            <small>OPENING HOURS</small>
+            <p>Every Day<br>6:00 PM — 2:00 AM</p>
+          </div>
+        </div>
+
+        <div class="detail">
+          <span>📞</span>
+          <div>
+            <small>CALL US</small>
+            <p>+91 99999 99999</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-logo">
+      ☾ YOUR CAFE
+    </div>
+
+    <p>
+      Late nights. Good food. Better memories.
+    </p>
+
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+
+    <div class="copyright">
+      © 2026 Your Cafe. All rights reserved.
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
